@@ -13,7 +13,7 @@ pygame.init()
 window = pygame.display.set_mode((500, 500))
 window.fill((195,195,195))
 
-map = mapfromfile.get_map_from_file("testmap.csv")
+map = mapfromfile.get_map_from_csv_file("testmap.csv")
 
 rendermap.render_map(window, map)
 
